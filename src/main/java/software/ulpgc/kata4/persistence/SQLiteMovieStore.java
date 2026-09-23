@@ -7,9 +7,6 @@ import java.util.Collection;
 import java.util.List;
 import java.util.ArrayList;
 
-import static com.sun.beans.introspect.ClassInfo.clear;
-import static javax.management.remote.JMXConnectorFactory.connect;
-
 public class SQLiteMovieStore implements MovieStore {
     private final String url;
 
